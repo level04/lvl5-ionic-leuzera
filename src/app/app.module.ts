@@ -15,6 +15,7 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
     MyApp,
     HomePage,
     LoginPage,
+    ContatoFormPage
   ],
   imports: [
     BrowserModule,
@@ -23,9 +24,9 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
     HomePage,
     LoginPage,
+    ContatoFormPage
   ],
   providers: [
     StatusBar,
