@@ -6,14 +6,26 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'login.html'
 })
 export class LoginPage {
+  user: any = [];
   @ViewChild('email') email: any;
-  private username: string;
-  private password: string;
-  private error: string;
+  private logged: boolean;
+
+  //constructor(public navCtrl: NavController) {}
 
   ionViewDidLoad(): void {
     setTimeout(() => {
       this.email.setFocus();
     }, 500);
+  }
+
+  login(): void {
+    this.user = [
+      {email: this.email}
+    ]
+    this.logged = true;
+  }
+
+  isLogged(): boolean {
+    return this.logged;
   }
 }

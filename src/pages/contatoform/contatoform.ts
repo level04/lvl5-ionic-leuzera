@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -6,5 +6,8 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'contatoform.html'
 })
 export class ContatoFormPage {
-  ionViewDidLoad(): void {}
+
+  //constructor(public navCtrl: NavController) {  }
+
+  addContato(): void{}
 }

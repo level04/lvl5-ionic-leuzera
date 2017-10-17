@@ -31,7 +31,8 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    LoginPage
   ]
 })
 export class AppModule {}

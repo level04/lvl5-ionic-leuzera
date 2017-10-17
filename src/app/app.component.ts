@@ -14,7 +14,13 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
 export class MyApp {
   rootPage:any = LoginPage;
 
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, login: LoginPage) {
+    if (login.isLogged()){
+      this.rootPage = HomePage;
+    } else {
+      this.rootPage = LoginPage;
+    }
+
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
