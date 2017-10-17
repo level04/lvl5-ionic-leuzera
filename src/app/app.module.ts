@@ -8,6 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { ContatoFormPage } from '../pages/contatoform/contatoform';
+import { ContatosProvider } from '../providers/contatos/contatos';
+import { PostsProvider } from '../providers/posts/posts';
 
 
 @NgModule({
