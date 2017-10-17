@@ -32,7 +32,9 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    LoginPage
+    LoginPage,
+    ContatosProvider,
+    PostsProvider
   ]
 })
 export class AppModule {}

@@ -12,13 +12,13 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
 })
 
 export class MyApp {
-  rootPage:any = LoginPage;
+  rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, login: LoginPage) {
     if (login.isLogged()){
       this.rootPage = HomePage;
     } else {
-      this.rootPage = LoginPage;
+      //this.rootPage = LoginPage;
     }
 
     platform.ready().then(() => {
