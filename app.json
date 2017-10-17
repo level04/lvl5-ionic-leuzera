@@ -1,0 +1,7 @@
+{
+    "name": "Level 5 Ionic Tutorial",
+    "description": "Uma agenda simples para o curso de Ionic da Level 5",
+    "repository": "https://github.com/leuzera/lvl5-ionic-leonardo_fleury",
+    "logo": "resources/icon.png",
+    "keywords": ["ionic", "devdactic", "whatever"]
+}
