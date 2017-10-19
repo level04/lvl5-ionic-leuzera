@@ -12,6 +12,14 @@ import { ContatoFormPage } from '../pages/contatoform/contatoform';
 import { ContatosProvider } from '../providers/contatos/contatos';
 import { PostsProvider } from '../providers/posts/posts';
 
+export const firebaseConfig = {
+  apiKey: "AIzaSyDJemdsW897HWidsvJ40JCWKOvzm4mwiAI",
+  authDomain: "lvl5-ionic.firebaseapp.com",
+  databaseURL: "https://lvl5-ionic.firebaseio.com",
+  projectId: "lvl5-ionic",
+  storageBucket: "lvl5-ionic.appspot.com",
+  messagingSenderId: "383181670617"
+}
 
 @NgModule({
   declarations: [
